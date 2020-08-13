@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  background-image: url('img/thomas-kelley-hHL08lF7Ikc-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(61, 51, 41);
+  font-size: 16px;
+  /**font-family: 'Lemonada', cursive;**/
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.body-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+header {
+  padding: 2% 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0.6rem;
+  font-size: 1.3rem;
+}
+
+nav a {
+  color: rgb(61, 51, 41);
+  padding: 0.6rem;
+  border: 1.5px solid rgb(61, 51, 41);
+  border-radius: 10px;
+}
+nav a:hover {
+  background-color: rgb(61, 51, 41);
+  color: white;
+}
+
+header h1{
+  margin: 2rem;
+  font-size: 4rem;
+}
+
+main {
+  width: 70%;
+  margin: 2% auto;
+  border-top: 2px dotted rgb(61, 51, 41);
+  border-bottom: 2px dotted rgb(61, 51, 41);
+  padding: 4% 0;
+}
+
+main a {
+  color: rgb(61, 51, 41);
+}
+
+#about img {
+  border-radius: 15px;
+  height: 300px;
+  float: left;
+}
+
+#about h2 {
+  padding-top: 5%;
+}
+
+main h2 {
+  font-size: 2rem;
+}
+
+main p {
+  font-size: 1.2rem;
+}
+
+blockquote {
+  font-size: 2rem;
+  font-family: 'Lemonada', cursive;
+  clear: left;
+  color: rgb(179, 0, 0);
+  padding: 10% 0;
+}
+
+blockquote p {
+  color: rgb(61, 51, 41);
+  font-size: 1rem;
+  text-align: right;
+  text-decoration: underline;
+}
+
+#book-of-the-month h2,
+#blog h2,
+#events h2 {
+  text-align: left;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+
+#book-of-the-month a,
+#blog a,
+#events a {
+  border: 1.5px solid rgb(61, 51, 41);
+  border-radius: 10px;
+  padding: 0.7%;
+}
+
+#book-of-the-month p,
+#blog p,
+#events p {
+  margin-bottom: 10%;
+  text-align: left;
+}
+
+#book-of-the-month img,
+#blog img,
+#events img {
+  width: 90%;
+}
+
+#book-of-the-month,
+#blog,
+#events {
+  border-top: 2px dotted rgb(61, 51, 41);
+}
+
+footer img {
+  width: 5%;
+  padding: 1%;
+}
+
+footer p{
+  padding: 1%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .body-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  nav a {
+    color: rgb(61, 51, 41);
+    padding: 0.6rem;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  #about h2 {
+    padding-top: 3%;
+  }
+
+  #book-of-the-month,
+  #blog,
+  #events,
+  #about img {
+    padding-left: 1%;
+  }
+
+  blockquote p {
+    padding-right: 1%;
+  }
+
+  footer img {
+    width: 7%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .body-box {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  nav a {
+    color: rgb(61, 51, 41);
+    padding: 0.6rem;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  #about h2 {
+    padding-top: 0;
+  }
+
+  #book-of-the-month,
+  #blog,
+  #events,
+  #about img {
+    padding-left: 1%;
+  }
+
+  blockquote p {
+    padding-right: 1%;
+  }
+
+  footer img {
+    width: 10%;
+  }
+}
